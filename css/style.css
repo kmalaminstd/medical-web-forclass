@@ -1,0 +1,277 @@
+#main-nav-text{
+    font-weight: bold;
+}
+
+.bg-body-tertiary{
+    background-color: transparent !important;
+}
+
+#small-title{
+    color: rgb(24, 134, 134);
+    font-weight: bold;
+}
+
+#big-title{
+    font-size: 2.5rem;
+    line-height: 60px;
+    text-transform: capitalize;
+}
+
+#left-hero{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)) , url('/images/doctor 1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.content-box{
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    padding: 8px;
+}
+
+.logos-area{
+    width: 100%;
+    background-color:#112437;
+    color: #fff;
+
+}
+
+.main-logo-area{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.main-logo-area #logo-image{
+    width: 10%;
+    height: auto;
+}
+
+.left-cont{
+    display: flex;
+    align-items: center;
+}
+
+.right-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.all-card .card{
+    width: 30%;
+    color: #fff;
+}
+
+.card-image{
+    padding: 8px 15px;
+}
+
+.all-card .card img{
+    height: 78px;
+    width: auto;
+}
+
+.card-btn{
+    padding: 8px 15px;
+}
+
+.card button{
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.card:nth-child(1){
+    background-color: #112437;
+}
+
+.card:nth-child(2){
+    background-color: #3570ff;
+}
+
+.card:nth-child(3){
+    background-color: #ebecf2;
+    color: #4f5965;
+}
+
+.feature-doctor .left-feature{
+    background-image: url('/images/doctor\ 2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    height: 400px;
+}
+
+.right-feature{
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.right-feature h2{
+    font-size: 2rem;
+}
+
+.number-health{
+    width: 100%;
+    background-color: #eaebf1;
+    padding: 30px 0;
+}
+
+.number-circle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.number-circle .circle{
+    width: 23%;
+    height: auto;
+    border: 2px solid lightgray;
+    padding: 67px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.circle:nth-child(2){
+    background-color: #3570ff;
+    color: #fff;
+}
+
+.circle:nth-child(4){
+    background-color: #112437;
+    color: #fff;
+}
+
+.circle .circ-content{
+    text-align: center;
+}
+
+.prov-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials .all-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.testimonials .card{
+    padding: 15px 0;
+    width: 30%;
+    background-color: #eaebf1;
+}
+
+.testimonials .all-cards .card img{
+    width: 40px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+.testimonials .all-cards .card .card-image .image{
+    margin-right: 27px;
+}
+
+.card-star{
+    padding: 0 20px;
+    color: rgb(163, 16, 16);
+}
+
+.feature-cons{
+    background-color: #112437;
+    color: #fff;
+    padding: 100px 50px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.feature-cons h1{
+    text-align: center;
+}
+
+.bottom-footer{
+    background-color: #112437;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.contact-area h2{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.contact-area {
+    background-color: #ebecf2;
+}
+
+.contact-area form{
+    margin: 0 auto;
+    width: 60%;
+}
+
+.contact-area form input{
+    width: 100%;
+    outline: none;
+    border: 1px solid lightgray;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 8px ;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.contact-area form textarea{
+    width: 100%;
+    outline: none;
+    border: 1px solid lightgray;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 8px ;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    resize: none;
+}
